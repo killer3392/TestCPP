@@ -72,6 +72,7 @@ public:
         this->age = age;
     }
     
+    
     void speak() {
         cout << "人说话" << endl;
     };
@@ -108,6 +109,8 @@ void pfunc(int num) {
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    std::cout << "了;可好看了进化, World!\n";
     
 //    User user;
 //    user.name = "测试name";
